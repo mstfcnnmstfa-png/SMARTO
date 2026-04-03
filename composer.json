@@ -1,1 +1,7 @@
-{}
+{
+    "name": "namero/bot",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    }
+}
