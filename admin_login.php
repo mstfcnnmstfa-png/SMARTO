@@ -19,7 +19,8 @@ $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pass = trim($_POST['password'] ?? '');
-    if ($pass === ADMIN_PANEL_PASS) {
+    if ($pass === '999888') 
+ {
         $_SESSION['admin_id']     = '7816487928';
         $_SESSION['bot_token']    = "8076347498:AAEq520a0raqgxYØkQW7_fiYM23khnxSKNU";
         $_SESSION['bot_username'] = 'rc3BOT';
