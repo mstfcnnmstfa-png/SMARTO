@@ -1,5 +1,5 @@
 <?php
-$files = ['Namero.php', 'polling.php', 'service.php', 'admin_login.php'];
+$files = ['index.php', 'polling.php', 'service.php', 'admin_login.php'];
 foreach ($files as $file) {
     $content = file_get_contents($file);
     $fixed = str_replace(
